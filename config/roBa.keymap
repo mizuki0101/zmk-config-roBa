@@ -72,10 +72,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                 &kp E         &kp R                 &kp T                                                  &kp Y        &kp U           &lt 5 I    &kp O      &kp P
-&mt LCTRL A       &mt LC(LEFT_SHIFT) S  &kp D         &lt 5 F               &kp G        &kp LS(LG(S))      &kp MINUS              &kp H        &mt LEFT_ALT J  &kp K      &kp L      &mt LCTRL BACKSPACE
-&mt LEFT_SHIFT Z  &kp X                 &kp C         &kp V                 &kp B        &kp COLON          &kp SEMICOLON          &kp N        &lt 5 M         &mkp LCLK  &mkp RCLK  &kp COMMA
-&kp LCTRL         &kp LEFT_ALT          &kp LEFT_WIN  &lt_to_layer_0 1 TAB  &lt 2 SPACE  &kp MINUS          &mt LEFT_SHIFT PERIOD  &lt 2 ENTER                                        &kp LEFT_SHIFT
+&kp Q             &kp W                 &kp E             &kp R                 &kp T                                                  &kp Y        &kp U           &lt 5 I    &kp O                 &kp P
+&mt LCTRL A       &mt LC(LEFT_SHIFT) S  &mt LEFT_SHIFT D  &lt 5 F               &kp G        &kp LS(LG(S))      &lt 6 MINUS            &kp H        &mt LEFT_ALT J  &kp K      &mt LC(LEFT_SHIFT) L  &mt LCTRL BACKSPACE
+&mt LEFT_SHIFT Z  &kp X                 &kp C             &kp V                 &kp B        &kp COLON          &kp SEMICOLON          &kp N        &lt 5 M         &mkp LCLK  &mkp RCLK             &kp COMMA
+&kp LCTRL         &kp LEFT_ALT          &kp LEFT_WIN      &lt_to_layer_0 1 TAB  &lt 2 SPACE  &kp MINUS          &mt LEFT_SHIFT PERIOD  &lt 2 ENTER                                                   &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
@@ -112,10 +112,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans    &trans    &trans    &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
