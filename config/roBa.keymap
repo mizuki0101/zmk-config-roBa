@@ -88,6 +88,8 @@
 &kp TILDE        &kp GRAVE        &kp PIPE       &kp UNDERSCORE  &kp PLUS     &trans      &trans  &kp DOUBLE_QUOTES  &kp COLON      &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION
 &trans           &trans           &trans         &trans          &trans       &trans      &trans  &trans                                                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         NUM {
