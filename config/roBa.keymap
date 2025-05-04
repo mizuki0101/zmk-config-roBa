@@ -78,7 +78,7 @@
 &kp LCTRL         &kp LEFT_ALT          &kp LEFT_WIN      &lt_to_layer_0 1 TAB  &lt 2 SPACE  &kp MINUS          &mt LEFT_SHIFT PERIOD  &lt 2 ENTER                                                   &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         mark {
