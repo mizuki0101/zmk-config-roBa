@@ -45,6 +45,11 @@
             bindings = <&kp DELETE>;
             key-positions = <21 20>;
         };
+
+        mouse3 {
+            bindings = <&mkp MB3>;
+            key-positions = <32 31>;
+        };
     };
 
     macros {
