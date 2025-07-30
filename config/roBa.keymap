@@ -115,10 +115,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW      &kp LC(TAB)              &trans                       &trans  &trans        &trans         &trans  &trans
-&kp HOME        &kp LG(LEFT)            &kp LG(UP_ARROW)  &kp LG(RIGHT)            &kp END  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN)      &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &mkp MB4      &mkp MB5       &trans  &trans
-&trans          &trans                  &trans            &trans                   &trans   &trans      &trans  &trans                                       &trans
+&kp ESCAPE        &kp LC(LS(TAB))         &kp UP_ARROW      &kp LC(TAB)              &trans                                 &trans  &trans        &trans         &trans  &trans
+&kp LC(LG(LEFT))  &kp LG(LEFT)            &kp LG(UP_ARROW)  &kp LG(RIGHT)            &kp LC(LG(RIGHT))  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN)      &kp LG(LS(RIGHT_ARROW))  &trans             &trans      &trans  &trans  &mkp MB4      &mkp MB5       &trans  &trans
+&trans            &trans                  &trans            &trans                   &trans             &trans      &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -135,10 +135,10 @@
 
         SCROLL {
             bindings = <
-&kp F11  &kp F12  &trans             &trans  &trans                       &kp LA(F4)      &trans          &trans        &trans           &trans
-&kp F6   &kp F7   &mt LEFT_SHIFT F8  &kp F9  &kp F10  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp F1   &kp F2   &kp F3             &kp F4  &kp F5   &trans      &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-&trans   &trans   &trans             &trans  &trans   &trans      &trans  &trans                                                         &trans
+&kp F11  &kp F12  &trans             &trans         &trans                                   &kp LA(F4)      &trans          &trans        &trans           &trans
+&kp F6   &kp F7   &mt LEFT_SHIFT F8  &kp F9         &kp F10        &trans            &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp F1   &kp F2   &kp F3             &kp F4         &kp F5         &trans            &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+&trans   &trans   &trans             &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LEFT_ALT      &trans  &trans                                                         &trans
             >;
         };
 
