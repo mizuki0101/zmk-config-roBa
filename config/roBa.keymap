@@ -21,8 +21,8 @@
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
+        lck {
+            bindings = <&mkp LCLK>;
             key-positions = <12 13>;
         };
 
